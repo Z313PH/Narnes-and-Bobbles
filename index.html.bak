@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!--Meredith Baron
+	index.html
+	04/01/2022
+-->
+<!--template for all pages--> 
+
+<html lang="en">
+
+<head>
+	<title>Narnes and Bobble</title>
+	<meta charset="utf-8">
+		<link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+
+	<header>
+
+		<h1>Narnes and Bobble</h1>			
+		
+	</header>
+
+	<!--bootstrap for the nav/hamburger-->
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="books.html">Books</a></li>
+				<li><a href="link3.html">Other</a></li>
+				<li><a href="link4.html">Location</a></li>
+			<ul>
+		</nav>
+
+	<main>
+
+<!-- Checkout button up top-->
+
+	<!--2+ per class/heading--> 
+		<!--Hover using java for each book cover-->
+
+		<div class="book1">
+			<h3>Romance</h3>
+			<a href="">
+			<img src="media/song_of_achilles.jpg" alt="The Song of Achilles by Madeline Miller" width="175px" height="250px">
+			<figcaption>The Song of Achilles by Madeline Miller</figcaption>
+			</a><br>
+		</div>
+			
+		<div class="book2">
+			<h3>Fantasy</h3>
+			<a href="">
+			<img src="media/midnight_library.jpg" alt="The Midnight Library by Matt Haig" width="175px" height="250px">
+			<figcaption>The Midnight Library by Matt Haig</figcaption>
+			</a><br>
+		</div>
+			
+		<div class="book3">
+			<h3>Self-Help</h3>
+			<a href="">
+			<img src="media/101_essays_change_life.jpg" alt="101 Essays that will Change the way You Think by Brianna Wiest" width="175px" height="250px">
+			<figcaption>101 Essays that will Change the way You Think by Brianna Wiest</figcaption>
+			</a><br>
+		</div>
+
+		<div class="book4">
+			<h3>Poetry</h3>
+			<a href="">
+			<img src="media/milk_honey.jpg" alt="milk and honey by Rupi Kaur" width="175px" height="250px">
+			<figcaption>milk and honey by Rupi Kaur</figcaption>
+			</a><br>
+		</div>
+			
+		<div class="book5">
+			<h3>Classics</h3>
+			<a href="">
+			<img src="media/mice_and_men.jpg" alt="Of Mice and Men by John Steinbeck" width="175px" height="250px">
+			<figcaption>Of Mice and Men by John Steinbeck</figcaption>
+			</a><br>
+		</div>
+			
+		<div class="book6">
+			<h3>Nature</h3>
+			<a href="">
+			<img src="media/fuzz_nature.jpg" alt="Fuzz: When Nature Breaks the Law by Mary Roach" width="175px" height="250px">
+			<figcaption>Fuzz: When Nature Breaks the Law by Mary Roach</figcaption>
+			</a><br>
+		</div>
+			
+		<div class="book7">	
+			<h3>Horror</h3>
+			<a href="">
+			<img src="media/girl_guide_to_murder.jpg" alt="A Good Girl's Guide to Murder by Holly Jackson" width="175px" height="250px">
+			<figcaption>A Good Girl's Guide to Murder by Holly Jackson</figcaption>
+			</a><br>
+		</div>
+
+	</main>
+	
+	<footer>
+	<p>Narnes and Bobble</p>
+	<p>Email: narnesandbobble@gmail.com</p>
+	<p>Phone #: (123)456-7890</p>
+	<p>Address: 12 Book Lane, UT, 3456</p>
+	</footer>
+	
+</body>
+</html>

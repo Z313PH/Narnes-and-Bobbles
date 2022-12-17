@@ -1,0 +1,114 @@
+/* CSS Reset */
+body, header, nav, main, footer, h1, h3, div, section, article, aside {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rule for body */
+body {
+	
+}
+
+/* Style rule for header */
+header {
+	background-color: #14213D;
+	color: #FCA311;
+	text-align: center;
+	padding: 5%;
+	font-size: 25px;
+}
+
+h1 {
+	margin-left: auto;
+}
+
+
+h2 {
+	margin-left: auto;
+}
+
+
+/* Style rules for nav area */
+nav {
+	background-color: #E5E5E5;
+	padding: 0.5%;
+    margin-bottom: 1%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+}
+
+nav ul {
+	text-align: center;
+	list-style-type: none;
+}
+
+nav li {
+	font-size: 1.25em;
+    padding-top: 0;
+	padding-bottom: 0;
+	padding-left: 4%;
+	padding-right: 4%;
+    display: inline-block;
+	font-family: ;
+}
+
+nav li a {
+	color: #000000;
+	text-decoration: none;
+	display: inline;
+}
+
+main h1 {
+	padding: 2%;
+	color: #14213D;
+	text-align: center;
+	background-color: #FFFFFF;
+}
+
+/* Style rules for books */
+
+iframe {
+	align-items: center;
+}
+
+main h3 {
+	padding: 1%;
+}
+address {
+	margin-left: 5px;
+}
+
+section {
+
+}
+
+article {
+
+}
+.portfolio{
+	text-align: center;
+}
+input {
+	width: 6em;
+	height: 3em;
+	background-color: 	#14213D;
+	color: #fff;
+	font-weight: bold;
+	font-size: 1em;
+	box-align: center;
+}
+
+p {
+   size: 100px;
+   text-align: center;
+}
+
+/* Media Query for Tablet Viewport */
+@media screen and (min-width: 700px), print {
+
+}
+
+/* color pallete: */ #000000(black) #14213D(oxford blue) #FCA311(orange web) #E5E5E5(platinum) #FFFFFF(white)
+

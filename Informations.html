@@ -1,0 +1,46 @@
+<!--Meredith Baron, Elie Wamana, Nate
+	index.html
+	04/01/2022
+-->
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<title>Narnes and Bobble</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+</head>
+<header>Elie Wamana's portfolio</header>
+<nav>
+    <ul>
+        <li><a href="location.html">Back</a></li>
+</nav>
+<body>
+    <div class="portfolio">
+    <img src="Media/Elie.JPG" alt="Elie Wamana" id="img1" width="300px" height="300px" 
+    ><br>
+    <article id=main>
+        <p>My name is Elie Wamana, I'm from Democratic Replubic of Congo.<br> My major is computer science, I like soccer, reading, and tech things.<br>
+        I also enjoy watching animes and hanging around, having fun with my close friends.<br> I am overall very happy with everything I have been learning here at SUU and<br>
+        cannot wait to get opportunities to learn more in order to help develop my country.
+        </p>
+                <input type="button" onclick="hideImage()" value="Hide">
+                <input type="button" onclick="showImage()" value="Show">
+</article>
+<script>
+    function hideImage(){
+        var x = document.getElementById("img1");
+        x.style.display = "none";
+    }
+    function showImage(){
+        var x = document.getElementById("img1");
+        x.style.display = "inline";  
+    }
+</script>
+    </div>
+<!--
+<script src="Script/sript.js"></script> -->
+
+</body>
+</html>
